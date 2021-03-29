@@ -1,0 +1,35 @@
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 8
+   Case Problem 2
+
+   Big Apple Physics Animation Styles
+   Author: Demesvar Delva
+   Date: 3/23/2021  
+
+   Filename: ba_animate.css
+
+*/
+
+
+/* Transition Styles */
+nav a {
+   background-image: url(ba_target.png);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: 0;
+   color: rgb(253, 240, 133);
+   transition: background 0.3s
+              color 0.8s;
+}
+
+nav a:hover {
+  background-size: 100%;
+  color: rgb(244, 130, 130);
+}
+
+
+/* Animation Styles */
+
+ 
+
